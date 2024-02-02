@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .container{
+    margin: 0 auto;
+    max-width: 1000px;
+ }
+/*prima colonna*/
+
+ .header { 
+    background-color: brown;
+    padding: 10px;
+ }
+ .background-1{
+    background-color: yellow;
+    border: 2px dashed black;
+
+ }
+ .col-3{
+    display: flex;
+    justify-content: center;
+    border: 2px dashed black;
+ }
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+.row-1{
+    display: flex;
+   justify-content: space-between;
+}
+
+.flexlogo{
+    display: flex;
+    justify-content: flex-start;
+}
+.flexlogin{
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*secondacolonna*/
+.quadrato-2{
+    padding: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: blue; 
+    
+}
+.background-2{
+    background-color: pink;
+    border: 2px dashed black;
+
+}
+.row-2 {
+    min-height: 300px;
+   
+}
+/*terzacolonna*/
+.quadrato-3{
+    padding: 30px;
+}
+.row-3{
+    min-height: 400px;
+}
+.col-60{
+    width: 60%;
+    background-color: blue;
+    border: 2px dashed black;
+}
+.col-40{
+    width: 40%;
+    background-color: pink;
+    border: 2px dashed black;
+    
+}
+/*quadrato4*/
+.quadrato-4{
+    background-color: lightgrey;
+  
+}
+.row-4{
+    min-height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+/*quadrato5*/
+.quadrato-5{
+background-color: lightgray;
+padding: 30px;
+
+}
+.row-5{
+    min-height: 500px;
+}
+.background-green{
+    background-color: green;
+    border: 2px dashed black;
+    
+
+}
+
+/*quadrato5*/
+.quadrato-6{
+    padding: 30px;
+    background-color: black;
+}
+.col-30{
+    width: 30%;
+    background-color: pink;
+    border: 2px dashed black;
+}
+.col-17-5{
+    width: 17.5%;
+    background-color: blue;
+    border: 2px dashed white;
+}
+
+ 
+/*footer*/
+
+footer{
+    background-color: black;
+    border: 1px solid white;
+
+}
+
+
+.background-6{
+    background-color: aquamarine;
+}
+
+.col-logo{
+    
+    border: 1px dashed black;
+    background-color: pink;
+
+}
+.col-bottone{
+    
+    border: 1px dashed black;
+   background-color: pink;
+}
+
+ 
+
+
+/*debug*/
+
+.debug .container{
+    
+    padding: 5px;
+
+}
+.debug .row{
+    padding: 5px;
+    
+}
