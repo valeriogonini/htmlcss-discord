@@ -13,6 +13,7 @@
     list-style: none;
  }
  h2{
+
     font-size: 50px;
  }
  .nav{
@@ -43,7 +44,7 @@
  }
 
  img{
-   max-height: 500px;
+   max-height: 400px;
  }
  a {
    text-decoration: none;
@@ -113,14 +114,24 @@
 }
 .col-60{
     width: 60%;
-    background-color: blue;
-    border: 2px dashed black;
+   
 }
-.col-40{
+.tit-1{
     width: 40%;
-    background-color: pink;
-    border: 2px dashed black;
+
     
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-top: 30px;
+    
+}
+.p-2{
+    width: 300px;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+
 }
 /*quadrato4*/
 .quadrato-4{
