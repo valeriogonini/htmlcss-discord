@@ -31,6 +31,7 @@
     border-radius: 30px;
     border: 1px solid white;
     font-weight: 400;
+    font-size: 15px;
 
  }
  .button-2{
@@ -41,6 +42,7 @@
     border: 1px solid black;
     font-weight: 400;
     color: white;
+    font-size: 15px;
  }
 
  img{
@@ -59,6 +61,7 @@
     background-size: cover;
     color: white;
     height: 500px;
+    font-size: 20px;
  }
 .list{
     
@@ -90,6 +93,11 @@
     background-size: cover;
     width: 100px;
     
+}
+.row-6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -141,10 +149,6 @@
 
 }
 /*quadrato4*/
-.quadrato-4{
-    background-color: lightgrey;
-  
-}
 .row-4{
     min-height: 400px;
     display: flex;
@@ -152,18 +156,20 @@
 }
 /*quadrato5*/
 .quadrato-5{
-background-color: lightgray;
 padding: 30px;
 
 }
 .row-5{
     min-height: 500px;
-}
-.background-green{
-    background-color: green;
-    border: 2px dashed black;
     
-
+}
+.p-6{
+    font-weight: 400px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.img-4{
+    min-height: 700px;
 }
 
 /*quadrato5*/
