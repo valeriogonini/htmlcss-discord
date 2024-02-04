@@ -205,30 +205,28 @@ padding: 30px;
 /*quadrato5*/
 .quadrato-6{
     padding: 30px;
-    background-color: black;
+   
 }
 .col-30{
     width: 30%;
-    background-color: pink;
-    border: 2px dashed black;
-    margin-bottom: 5px;
+    
 }
 .col-17-5{
     width: 17.5%;
-    background-color: blue;
-    border: 2px dashed white;
+    margin-top: 10px;
 }
 
  
 /*footer*/
 
 footer{
-    background-color: black;
-    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.866);
+    padding: 50px;
+   
 
 }
 .h2-foot{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(77, 56, 232);
     margin-bottom: 20px;
 }
@@ -243,11 +241,11 @@ footer{
     background-color: pink;
 
 }
-.col-bottone{
-    
-    border: 1px dashed black;
-   background-color: pink;
+.lista{
+    margin-bottom: 15px;
+    font-size: 15px;
 }
+
 
  
 
